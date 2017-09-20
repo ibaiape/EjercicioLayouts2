@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+    <!--Ejercicio 1-->
 <!--
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -36,6 +37,7 @@
 </RelativeLayout>
 
 -->
+    <!--Ejercicio 2-->
 <!--
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -89,6 +91,7 @@
 </TableLayout>
 
 -->
+    <!--Ejercicio 3-->
 <!--
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -185,6 +188,7 @@
         </LinearLayout>
 </LinearLayout>
     -->
+    <!--Ejercicio 4-->
 <!--
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -223,7 +227,7 @@
 
 </RelativeLayout>
     -->
-
+    <!--Ejercicio 5-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -274,44 +278,3 @@
     </LinearLayout>
 
 </LinearLayout>
-
-<!--
-
-<TextView android:id="@+id/lblUser"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Usuario"
-            android:layout_toL/>
-
-        <TextView android:id="@+id/lblPass"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Contraseña"/>
-
-        <TextView android:id="@+id/lblLogin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="LOGIN"
-            android:layout_alignParentTop="true"/>
-
-        <EditText android:id="@+id/txtUser"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="text"
-            android:layout_below="@+id/lblLogin"/>
-
-        <EditText android:id="@+id/txtPass"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="text"
-            android:layout_below="@+id/txtUser"/>
-
-        <Button android:id="@+id/btnBoton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="BOTÓN"
-            android:layout_alignLeft="@+id/txtPass"
-            android:layout_alignRight="@+id/txtPass"
-            android:layout_below="@+id/txtPass"/>
-
--->
