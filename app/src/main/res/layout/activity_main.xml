@@ -224,51 +224,56 @@
 </RelativeLayout>
     -->
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.dm2.ejerciciolayouts.MainActivity">
-
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
         <TextView android:id="@+id/lblUser"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Usuario"
-            android:layout_alignParentLeft="true"
-            android:layout_toLeftOf="@id/txtUser"/>
+            android:layout_marginTop="30dp"/>
 
         <TextView android:id="@+id/lblPass"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Contraseña"
-            android:layout_alignParentLeft="true"/>
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <TextView android:id="@+id/lblLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="LOGIN"
-            android:layout_alignParentTop="true"/>
+            android:text="LOGIN"/>
 
         <EditText android:id="@+id/txtUser"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
-            android:layout_below="@+id/lblLogin"/>
+            android:inputType="text"/>
 
         <EditText android:id="@+id/txtPass"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
-            android:layout_below="@+id/txtUser"/>
+            android:inputType="text"/>
 
         <Button android:id="@+id/btnBoton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="BOTÓN"
-            android:layout_below="@+id/txtPass"/>
+            android:text="BOTÓN"/>
+    </LinearLayout>
 
-</RelativeLayout>
+</LinearLayout>
 
 <!--
 
